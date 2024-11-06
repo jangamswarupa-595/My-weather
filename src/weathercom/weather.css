@@ -1,0 +1,74 @@
+.background-image {
+    background-image: url('C:\Users\weather.jpg'); /* Use the correct relative path for your image */
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    height: 100vh; /* Full screen height */
+    width: 100%; /* Full width */
+    position: fixed; /* Fix the background image so it doesn't move with scrolling */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure it stays behind all other content */
+}
+
+/* .weather-widget {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  z-index: 1;
+  
+  background-color: transparent; 
+  border-radius: 0; 
+  box-shadow: none; 
+} */
+
+
+.weather-widget {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  z-index: 1;
+  background-color: transparent; /* Transparent background */
+  border-radius: 0; /* No rounded corners */
+  box-shadow: none; /* No shadow */
+  color: #ffffff; /* Change font color to white */
+}
+
+.weather-widget h1, .weather-widget h2 {
+  color: #ffffff; /* Change heading colors to white */
+}
+
+.weather-widget p {
+  color: #ffffff; /* Change paragraph text color to white */
+}
+
+.weather-widget input {
+  color: #333; /* Input text color */
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.weather-widget button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-widget button:hover {
+  background-color: #0056b3;
+}
+
